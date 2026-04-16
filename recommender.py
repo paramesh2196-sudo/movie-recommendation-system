@@ -115,6 +115,9 @@ class HybridRecommender:
         top_n: int = 8,
     ) -> list:
         """Recommend movies based on user genre preferences."""
+        if not liked_genres:
+            return []
+
         filtered = self.filter_engine.filter(
             genres=liked_genres,
             min_rating=min_rating,
