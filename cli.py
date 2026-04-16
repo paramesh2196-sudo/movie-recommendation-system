@@ -94,7 +94,7 @@ def interactive():
 
 
 if __name__ == "__main__":
-    print("\n🎬 MOVIE RECOMMENDATION SYSTEM")
+    print("\nMOVIE RECOMMENDATION SYSTEM")
     print("=" * 55)
     print("Running all demo modes...\n")
 
